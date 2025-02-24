@@ -1,0 +1,155 @@
+[
+  {
+    "id": "1",
+    "name": "italcol",
+    "img": "/media/suppliers/italcol.png",
+    "email": "mailDePrueba@gmail.com",
+    "web": "https://italcol.com/",
+    "serviceType": "Venta de Insumos",
+    "direction": "Calle Ficticia 101",
+    "usageData": [
+      { "month": "Sep-2024", "usage": "32" },
+      { "month": "Oct-2024", "usage": "17" },
+      { "month": "Nov-2024", "usage": "45" },
+      { "month": "Dic-2024", "usage": "29" },
+      { "month": "Ene-2025", "usage": "38" },
+      { "month": "Feb-2025", "usage": "22" }
+    ]
+  },
+  {
+    "id": "2",
+    "name": "ColTanques",
+    "img": "/media/suppliers/coltanques.png",
+    "email": "mailDePrueba@gmail.com",
+    "web": "https://www.coltanques.com.co/",
+    "serviceType": "Logística",
+    "direction": "Calle Ficticia 202",
+    "usageData": [
+      { "month": "Sep-2024", "usage": "26" },
+      { "month": "Oct-2024", "usage": "39" },
+      { "month": "Nov-2024", "usage": "21" },
+      { "month": "Dic-2024", "usage": "33" },
+      { "month": "Ene-2025", "usage": "44" },
+      { "month": "Feb-2025", "usage": "18" }
+    ]
+  },
+  {
+    "id": "3",
+    "name": "AgroBayer",
+    "img": "/media/suppliers/agrobayer.png",
+    "email": "mailDePrueba@gmail.com",
+    "web": "https://www.agro.bayer.co",
+    "serviceType": "Venta de Insumos",
+    "direction": "Calle Ficticia 303",
+    "usageData": [
+      { "month": "Sep-2024", "usage": "20" },
+      { "month": "Oct-2024", "usage": "30" },
+      { "month": "Nov-2024", "usage": "40" },
+      { "month": "Dic-2024", "usage": "25" },
+      { "month": "Ene-2025", "usage": "35" },
+      { "month": "Feb-2025", "usage": "27" }
+    ]
+  },
+  {
+    "id": "4",
+    "name": "Futuagro",
+    "img": "/media/suppliers/futuagro.png",
+    "email": "mailDePrueba@gmail.com",
+    "web": "https://futuagrocol.com/",
+    "serviceType": "Venta de Insumos",
+    "direction": "Calle Ficticia 404",
+    "usageData": [
+      { "month": "Sep-2024", "usage": "28" },
+      { "month": "Oct-2024", "usage": "22" },
+      { "month": "Nov-2024", "usage": "37" },
+      { "month": "Dic-2024", "usage": "41" },
+      { "month": "Ene-2025", "usage": "33" },
+      { "month": "Feb-2025", "usage": "19" }
+    ]
+  },
+  {
+    "id": "5",
+    "name": "Halcón Colombia",
+    "img": "/media/suppliers/halcon.png",
+    "email": "mailDePrueba@gmail.com",
+    "web": "https://halconcolombia.com/",
+    "serviceType": "Venta de Insumos",
+    "direction": "Calle Ficticia 505",
+    "usageData": [
+      { "month": "Sep-2024", "usage": "31" },
+      { "month": "Oct-2024", "usage": "29" },
+      { "month": "Nov-2024", "usage": "42" },
+      { "month": "Dic-2024", "usage": "36" },
+      { "month": "Ene-2025", "usage": "27" },
+      { "month": "Feb-2025", "usage": "30" }
+    ]
+  },
+  {
+    "id": "6",
+    "name": "Herragro",
+    "img": "/media/suppliers/herragro.png",
+    "email": "mailDePrueba@gmail.com",
+    "web": "https://www.herragro.com/shop/",
+    "serviceType": "Venta de Herramientas",
+    "direction": "Calle Ficticia 606",
+    "usageData": [
+      { "month": "Sep-2024", "usage": "24" },
+      { "month": "Oct-2024", "usage": "38" },
+      { "month": "Nov-2024", "usage": "26" },
+      { "month": "Dic-2024", "usage": "40" },
+      { "month": "Ene-2025", "usage": "33" },
+      { "month": "Feb-2025", "usage": "29" }
+    ]
+  },
+  {
+    "id": "7",
+    "name": "OPL Carga",
+    "img": "/media/suppliers/opl.png",
+    "email": "mailDePrueba@gmail.com",
+    "web": "https://www.oplcarga.com/",
+    "serviceType": "Logística",
+    "direction": "Calle Ficticia 707",
+    "usageData": [
+      { "month": "Sep-2024", "usage": "35" },
+      { "month": "Oct-2024", "usage": "19" },
+      { "month": "Nov-2024", "usage": "45" },
+      { "month": "Dic-2024", "usage": "31" },
+      { "month": "Ene-2025", "usage": "28" },
+      { "month": "Feb-2025", "usage": "23" }
+    ]
+  },
+  {
+    "id": "8",
+    "name": "SemiCol",
+    "img": "/media/suppliers/semicol.png",
+    "email": "mailDePrueba@gmail.com",
+    "web": "https://www.semicol-sas.com/",
+    "serviceType": "Venta de Semillas",
+    "direction": "Calle Ficticia 808",
+    "usageData": [
+      { "month": "Sep-2024", "usage": "30" },
+      { "month": "Oct-2024", "usage": "33" },
+      { "month": "Nov-2024", "usage": "27" },
+      { "month": "Dic-2024", "usage": "36" },
+      { "month": "Ene-2025", "usage": "20" },
+      { "month": "Feb-2025", "usage": "40" }
+    ]
+  },
+  {
+    "id": "9",
+    "name": "AgroExport",
+    "img": "/media/suppliers/agroexport.png",
+    "email": "mailDePrueba@gmail.com",
+    "web": "https://www.agroexport.com.co/",
+    "serviceType": "Venta de Insumos",
+    "direction": "Calle Ficticia 909",
+    "usageData": [
+      { "month": "Sep-2024", "usage": "22" },
+      { "month": "Oct-2024", "usage": "34" },
+      { "month": "Nov-2024", "usage": "29" },
+      { "month": "Dic-2024", "usage": "41" },
+      { "month": "Ene-2025", "usage": "26" },
+      { "month": "Feb-2025", "usage": "32" }
+    ]
+  }
+]

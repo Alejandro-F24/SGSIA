@@ -1,0 +1,42 @@
+[
+  {
+    "town": "Yopal",
+    "url": "https://www.openstreetmap.org/export/embed.html?bbox=-72.45294570922853%2C5.298994011771887%2C-72.34256744384767%2C5.357363070957949&amp;layer=mapnik",
+    "quantitySubsidiaries": 4,
+    "claimsQuantity": 22,
+    "customersQuantity": 37,
+    "deliveriesQuantity": 18
+  },
+  {
+    "town": "Aguazul",
+    "url": "https://www.openstreetmap.org/export/embed.html?bbox=-72.573881149292%2C5.153777557463181%2C-72.51869201660158%2C5.182969566052342&amp;layer=mapnik",
+    "quantitySubsidiaries": 2,
+    "claimsQuantity": 17,
+    "customersQuantity": 29,
+    "deliveriesQuantity": 12
+  },
+  {
+    "town": "Paz de Ariporo",
+    "url": "https://www.openstreetmap.org/export/embed.html?bbox=-71.94972038269044%2C5.849845893212145%2C-71.83934211730958%2C5.908159921909549&amp;layer=mapnik",
+    "quantitySubsidiaries": 3,
+    "claimsQuantity": 25,
+    "customersQuantity": 33,
+    "deliveriesQuantity": 16
+  },
+  {
+    "town": "Villanueva",
+    "url": "https://www.openstreetmap.org/export/embed.html?bbox=-72.95406818389894%2C4.595976457912751%2C-72.89887905120851%2C4.6251927880697865&amp;layer=mapnik",
+    "quantitySubsidiaries": 1,
+    "claimsQuantity": 10,
+    "customersQuantity": 20,
+    "deliveriesQuantity": 7
+  },
+  {
+    "town": "Tauramena",
+    "url": "https://www.openstreetmap.org/export/embed.html?bbox=-72.77180671691896%2C5.001865673602821%2C-72.71661758422853%2C5.031064580173479&amp;layer=mapnik",
+    "quantitySubsidiaries": 5,
+    "claimsQuantity": 30,
+    "customersQuantity": 45,
+    "deliveriesQuantity": 21
+  }
+]

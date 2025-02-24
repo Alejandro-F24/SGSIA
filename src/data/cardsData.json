@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "image": "/media/chat.png",
+    "backgroundColor": "#337AB7",
+    "quantity": 870,
+    "text": "Nuevos Reclamos"
+  },
+  {
+    "id": 2,
+    "image": "/media/envio.png",
+    "backgroundColor": "#F0AD4E",
+    "quantity": 3570,
+    "text": "Entregas en Progreso"
+  },
+  {
+    "id": 3,
+    "image": "/media/nuevoUsuario.png",
+    "backgroundColor": "#5CB85C",
+    "quantity": 2478,
+    "text": "Clientes Nuevos"
+  }
+]

@@ -1,0 +1,54 @@
+[
+  {
+    "product": "Fertilizantes y Enmiendas",
+    "quantity": 50
+  },
+  {
+    "product": "Plaguicidas (Agroquímicos)",
+    "quantity": 27
+  },
+  {
+    "product": "Semillas",
+    "quantity": 80
+  },
+  {
+    "product": "Riego y Sistemas de Agua",
+    "quantity": 950
+  },
+  {
+    "product": "Maquinaria y Herramientas Agricolas",
+    "quantity": 550
+  },
+  {
+    "product": "Insumos para Protección de Cultivos",
+    "quantity": 146
+  },
+  {
+    "product": "Nutrientes y Bioestimulantes",
+    "quantity": 45
+  },
+  {
+    "product": "Insumos para Ganaderia",
+    "quantity": 750
+  },
+  {
+    "product": "Equipos de Medición y Control",
+    "quantity": 21
+  },
+  {
+    "product": "Insumos para Agricultura Organica",
+    "quantity": 45
+  },
+  {
+    "product": "Productos para Hidroponia",
+    "quantity": 56
+  },
+  {
+    "product": "Insumos para Postcosecha",
+    "quantity": 33
+  },
+  {
+    "product": "Productos Varios",
+    "quantity": 457
+  }
+]

@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "type": "Recibo",
+    "supplier": "TransLogistics",
+    "startDate": "05/10/2025",
+    "status": "En Progreso",
+    "finalDate": "05/15/2025"
+  },
+  {
+    "id": 2,
+    "type": "Entrega",
+    "supplier": "Innova Supply",
+    "startDate": "03/22/2025",
+    "status": "En Pausa",
+    "finalDate": "03/28/2025"
+  },
+  {
+    "id": 3,
+    "type": "Recibo",
+    "supplier": "RapidCargo",
+    "startDate": "06/01/2025",
+    "status": "En Progreso",
+    "finalDate": "06/07/2025"
+  },
+  {
+    "id": 4,
+    "type": "Entrega",
+    "supplier": "Alpha Distribuciones",
+    "startDate": "04/15/2025",
+    "status": "Cancelada",
+    "finalDate": "04/20/2025"
+  },
+  {
+    "id": 5,
+    "type": "Recibo",
+    "supplier": "Beta Logistics",
+    "startDate": "07/03/2025",
+    "status": "En Progreso",
+    "finalDate": "07/10/2025"
+  },
+  {
+    "id": 6,
+    "type": "Entrega",
+    "supplier": "Delta Freight",
+    "startDate": "02/14/2025",
+    "status": "En Progreso",
+    "finalDate": "02/18/2025"
+  },
+  {
+    "id": 7,
+    "type": "Recibo",
+    "supplier": "Gamma Supplies",
+    "startDate": "08/05/2025",
+    "status": "Con Problemas",
+    "finalDate": "08/12/2025"
+  },
+  {
+    "id": 8,
+    "type": "Entrega",
+    "supplier": "OmniDeliver",
+    "startDate": "09/09/2025",
+    "status": "Cancelada",
+    "finalDate": "09/15/2025"
+  },
+  {
+    "id": 9,
+    "type": "Recibo",
+    "supplier": "Zeta Cargo",
+    "startDate": "10/01/2025",
+    "status": "En Progreso",
+    "finalDate": "10/05/2025"
+  },
+  {
+    "id": 10,
+    "type": "Entrega",
+    "supplier": "Sigma Distribuciones",
+    "startDate": "11/11/2025",
+    "status": "En Pausa",
+    "finalDate": "11/20/2025"
+  }
+]
