@@ -1,0 +1,182 @@
+/* Estilos Globales de la pagina */
+
+:root {
+    --primary-BackgroundColor: #f8f9fa;
+    --secondary-BackgroundColor: #0f1c25;
+    --nav-font-color: #ffffff;
+    --font-principal-color: #000000;
+    --font-secondary-color: #ced4da;
+    --border-color: #c4c4c4;
+}
+
+/* Elimina el margen por defecto que tiene la pagina, ademas, se indica usar todo el tamaño */
+
+html,
+body,
+#root {
+    padding: 0;
+    margin: 0;
+    height: auto;
+    width: 100%;
+}
+
+p,
+h2,
+h1 {
+    margin: 0;
+}
+
+/* ==== ESTILOS CARRUSEL LOGOS ==== */
+
+.suppliers-logo-carousel {
+    overflow: hidden;
+    white-space: nowrap;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 20vh;
+}
+
+.suppliers-logo-carrousel-container {
+    overflow: hidden;
+    white-space: nowrap;
+    width: 100%;
+    height: 100%;
+    background: #f8f8f8;
+    padding: 10px 0;
+}
+
+.logo-track {
+    display: flex;
+    gap: 150px;
+}
+
+.carousel-logo {
+    object-fit: contain;
+    width: auto;
+    height: 40px;
+}
+
+
+.suppliers-crud-table {
+    width: 100%;
+    height: 70vh;
+    display: flex;
+}
+
+.suppliers-crud {
+    width: 25%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-sizing: border-box;
+    align-items: center;
+}
+
+.suppleirs-crud-container {
+    width: 80%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    border-radius: 10px;
+    background: var(--secondary-BackgroundColor);
+}
+
+.suppliers-crud h2 {
+    font-size: 28px;
+    color: var(--nav-font-color);
+}
+
+.action-button {
+    border-style: none;
+    border-radius: 10px;
+    width: 145px;
+    font-size: 12px;
+    height: 40px;
+    background: var(--primary-BackgroundColor);
+    cursor: pointer;
+    color: var(--font-principal-color);
+    transition: 0.3s all;
+}
+
+.action-button:hover {
+    transform: scale(1.1);
+}
+
+.suppliers-table {
+    width: 75%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.suppliers-table-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.suppliers-table-wrapper {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-y: auto;
+    /* Solo scroll vertical */
+    overflow-x: hidden;
+    /* Evita el desbordamiento horizontal */
+    border: 1px solid var(--border-color);
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(15, 28, 37, 0.5);
+    position: relative;
+}
+
+.suppliers-table-element {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: auto;
+    /* Permite que las columnas se ajusten al contenido */
+}
+
+.suppliers-table-element tbody {
+    display: block;
+    max-height: 60vh;
+    overflow-y: auto;
+    /* Desplazamiento dentro del tbody */
+    width: 100%;
+}
+
+.suppliers-table-element thead {
+    position: sticky;
+    top: 0;
+    background-color: var(--secondary-BackgroundColor);
+    color: var(--nav-font-color);
+    z-index: 10;
+    /* Asegura que la cabecera quede arriba */
+}
+
+.suppliers-table-element tr {
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+}
+
+
+th,
+td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+}
+
+th {
+    background-color: var(--secondary-BackgroundColor);
+}

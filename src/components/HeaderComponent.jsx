@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import empresaLogo from "../assets/white-logo.webp";
 import usuarioIcono from "../assets/white-usuario.png";
 import notificacionIcono from "../assets/white-notifications.png";
@@ -10,7 +11,9 @@ export const HeaderComponent = () => {
       <ul>
         <div className="nav-logo">
           <li>
-            <img src={empresaLogo} alt="" />
+            <Link to="/">
+              <img src={empresaLogo} alt="" />
+            </Link>
           </li>
           <li>
             <h2>SGSIA</h2>
@@ -21,7 +24,7 @@ export const HeaderComponent = () => {
             <a href="#">Clientes</a>
           </li>
           <li>
-            <a href="#">Proveedores</a>
+            <Link to="/suppliers">Proveedores</Link>
           </li>
           <li>
             <a href="#">Seguimiento</a>
@@ -44,3 +47,5 @@ export const HeaderComponent = () => {
     </nav>
   );
 };
+
+export default HeaderComponent;

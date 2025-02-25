@@ -3,7 +3,7 @@
 import { Pie } from "react-chartjs-2";
 import { Chart as ChartJS } from "chart.js/auto";
 import { motion } from "motion/react";
-import inventoryData from "../data/inventoryDara.json";
+import inventoryData from "../data/inventoryData.json";
 
 // Función para crear el gradiente
 
