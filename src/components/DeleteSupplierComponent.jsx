@@ -1,9 +1,18 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
 
+/**
+ * Componente de modal para eliminar un proveedor sin confirmación intermedia.
+ * Permite al usuario ingresar un ID y eliminar el proveedor directamente.
+ */
 const DeleteSupplierComponent = ({ onClose, onDeleteSuccess }) => {
+  // Estado para almacenar el ID del proveedor a eliminar
   const [supplierId, setSupplierId] = useState("");
 
+  /**
+   * Maneja la eliminación del proveedor.
+   * Verifica que se haya ingresado un ID válido y realiza la solicitud DELETE al servidor.
+   */
   const handleDelete = async () => {
     if (!supplierId) {
       alert("⚠️ Debes ingresar un ID válido.");
@@ -11,6 +20,7 @@ const DeleteSupplierComponent = ({ onClose, onDeleteSuccess }) => {
     }
 
     try {
+      // Petición DELETE al servidor con el ID proporcionado
       const response = await fetch(
         `http://localhost:3000/suppliers/${supplierId}`,
         {
@@ -18,12 +28,18 @@ const DeleteSupplierComponent = ({ onClose, onDeleteSuccess }) => {
         }
       );
 
+      // Verifica si la petición fue exitosa
       if (!response.ok) {
         throw new Error("Error al eliminar el proveedor");
       }
 
+      // Mensaje de éxito en la consola
       console.log(`Proveedor con ID ${supplierId} eliminado con éxito`);
-      onDeleteSuccess(supplierId); // Actualizar la lista en la UI
+
+      // Llama a la función de éxito para actualizar la UI
+      onDeleteSuccess(supplierId);
+
+      // Cierra el modal
       onClose();
     } catch (error) {
       console.error("Error eliminando proveedor:", error);
@@ -33,9 +49,9 @@ const DeleteSupplierComponent = ({ onClose, onDeleteSuccess }) => {
 
   return (
     <motion.div
-      initial={{ opacity: 0, x: -80 }}
-      animate={{ opacity: 1, x: 0 }}
-      exit={{ opacity: 0, scale: 0.5 }}
+      initial={{ opacity: 0, x: -80 }} // Efecto de entrada desde la izquierda
+      animate={{ opacity: 1, x: 0 }} // Aparece en la pantalla
+      exit={{ opacity: 0, scale: 0.5 }} // Efecto al cerrar el modal
       transition={{ duration: 0.3, ease: "easeInOut" }}
       className="modal-container-delete"
     >

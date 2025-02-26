@@ -4,7 +4,7 @@
  * Toma los datos de un archivo JSON y genera dinámicamente las cartas según su contenido.
  *
  * Fuentes de datos:
- * - `cardsData.json`: Contiene un array de objetos con la información de cada carta
+ * - "cardsData.json": Contiene un array de objetos con la información de cada carta
  * (image, background, quantity y text)
  *
  * Ejemplo de uso:

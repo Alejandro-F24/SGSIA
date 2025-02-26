@@ -1,3 +1,11 @@
+/**
+ * CustomersPage Component
+ *
+ * Este componente representa la página de gestión de clientes.
+ * Permite visualizar una tabla con la información de los clientes
+ * y realizar operaciones CRUD (Añadir, Editar (En desarrollo), Eliminar) mediante un modal.
+ */
+
 import { useState } from "react";
 import "./CustomersPage.css";
 import customersData from "../data/customersData.json";
@@ -9,14 +17,20 @@ import DeleteCustomersComponent from "../components/DeleteCustomersComponent.jsx
 import ModalComponent from "../components/ModalComponent";
 
 export const CustomersPage = () => {
-  const [modalOpen, setModalOpen] = useState(false);
-  const [modalType, setModalType] = useState(""); // 'add', 'edit', 'delete'
+  const [modalOpen, setModalOpen] = useState(false); // Estado para controlar la visibilidad del modal
+  const [modalType, setModalType] = useState(""); // ('add', 'edit', 'delete')
 
+  /**
+   * Abre el modal correspondiente al tipo de operación seleccionada.
+   */
   const openModal = (type) => {
     setModalType(type);
     setModalOpen(true);
   };
 
+  /**
+   * Cierra el modal y reinicia su tipo.
+   */
   const closeModal = () => {
     setModalOpen(false);
     setModalType("");
@@ -24,9 +38,11 @@ export const CustomersPage = () => {
 
   return (
     <>
+      {/* Encabezado de la página */}
       <header>
         <HeaderComponent />
       </header>
+      {/* Cuerpo de la página */}
       <main>
         <div className="customers-top-body">
           <div className="customers-info"></div>
@@ -51,12 +67,14 @@ export const CustomersPage = () => {
             </button>
           </div>
         </div>
+
+        {/* Tabla de clientes */}
         <div className="customers-table">
           <CustomersTableComponent clients={customersData.customers} />
         </div>
       </main>
 
-      {/* Modal */}
+      {/* Modal de operaciones */}
       <ModalComponent isOpen={modalOpen} onClose={closeModal}>
         {modalType === "add" && <AddCustomersComponent onClose={closeModal} />}
         {modalType === "edit" && (
@@ -67,7 +85,7 @@ export const CustomersPage = () => {
             onClose={closeModal}
             onDeleteSuccess={(deletedId) => {
               console.log(`Cliente ${deletedId} eliminado, actualizando lista`);
-              // Aquí puedes actualizar la lista de clientes si es necesario.
+              // Aquí se puede actualizar la lista de clientes si es necesario.
             }}
           />
         )}

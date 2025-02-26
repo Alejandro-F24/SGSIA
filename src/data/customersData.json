@@ -499,6 +499,17 @@
         }
       ],
       "total": ""
+    },
+    {
+      "id": "1740610625237",
+      "name": "Alejandro",
+      "type": "Tienda Agricola",
+      "nit": "8475163",
+      "number": "3144567470",
+      "registerDate": "2025-02-24",
+      "status": "Activo",
+      "record": [],
+      "total": ""
     }
   ]
 }

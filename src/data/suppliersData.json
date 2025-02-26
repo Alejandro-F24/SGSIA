@@ -82,13 +82,13 @@
       "address": "Calle 33 #7-23, Santa Marta"
     },
     {
-      "id": "10",
-      "name": "AgroAlianza Ltda.",
-      "service": "Venta de insumos agrícolas",
-      "serviceCount": 17,
-      "contractValue": "$35,200,000 COP",
-      "associationDate": "2016-02-14",
-      "address": "Avenida Bolívar #89-45, Villavicencio"
+      "id": "1740610922073",
+      "name": "Tienda Agricola S.A.S",
+      "service": "74",
+      "serviceCount": 45,
+      "contractValue": "$20.000.000 COP",
+      "associationDate": "2025-02-24",
+      "address": "Calle 45 # 32-10 Bogota"
     }
   ]
 }

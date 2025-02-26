@@ -1,7 +1,21 @@
+/**
+ * AddCustomerModal Component
+ *
+ * Este componente representa un modal para añadir un nuevo cliente.
+ * Utiliza estados locales para gestionar los datos ingresados en el formulario
+ * y envía la información a un servidor mediante una petición HTTP POST.
+ *
+ * Se utilizan animaciones de Framer Motion para mejorar la experiencia visual.
+ */
+
 import { useState } from "react";
 import { motion } from "framer-motion";
 
+/**
+ * Componente modal para añadir un cliente.
+ */
 const AddCustomerModal = ({ onClose }) => {
+  // Estados para almacenar los valores del formulario
   const [name, setName] = useState("");
   const [type, setType] = useState("");
   const [nit, setNit] = useState("");

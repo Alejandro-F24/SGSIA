@@ -13,11 +13,18 @@ const SuppliersPage = () => {
   const [modalOpen, setModalOpen] = useState(false);
   const [modalType, setModalType] = useState(""); // 'add', 'edit', 'delete'
 
+  /**
+   * Abre el modal correspondiente al tipo de operación seleccionada.
+   *
+   */
   const openModal = (type) => {
     setModalType(type);
     setModalOpen(true);
   };
 
+  /**
+   * Cierra el modal y reinicia su tipo.
+   */
   const closeModal = () => {
     setModalOpen(false);
     setModalType("");
@@ -25,13 +32,17 @@ const SuppliersPage = () => {
 
   return (
     <>
+      {/* Encabezado de la página */}
       <header>
         <HeaderComponent />
       </header>
+
       <main>
+        {/* Carrusel de logos de proveedores */}
         <div className="suppliers-logo-carousel">
           <ImagesCarousel />
         </div>
+
         <div className="suppliers-top-body">
           <div className="suppliers-info"></div>
           <div className="suppliers-crud">
@@ -55,12 +66,14 @@ const SuppliersPage = () => {
             </button>
           </div>
         </div>
+
+        {/* Tabla de proveedores */}
         <div className="suppliers-table">
           <SuppliersTableComponent suppliers={suppliersData.suppliers} />
         </div>
       </main>
 
-      {/* Modal */}
+      {/* Modal de operaciones */}
       <ModalComponent isOpen={modalOpen} onClose={closeModal}>
         {modalType === "add" && <AddSuppliersComponent onClose={closeModal} />}
         {modalType === "edit" && <EditSupplierComponent onClose={closeModal} />}
@@ -71,7 +84,7 @@ const SuppliersPage = () => {
               console.log(
                 `Proveedor ${deletedId} eliminado, actualizando lista`
               );
-              // Aquí puedes actualizar la lista de proveedores si es necesario.
+              // Aquí se puede actualizar la lista de proveedores si es necesario.
             }}
           />
         )}

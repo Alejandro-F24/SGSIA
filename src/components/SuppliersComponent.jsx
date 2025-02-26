@@ -4,10 +4,13 @@ import principalSuppliersData from "../data/principalSuppliersData.json";
 import { Line } from "react-chartjs-2";
 import { Chart as ChartJS } from "chart.js/auto";
 
+// Componente principal de proveedores
 export const SuppliersComponent = () => {
-  const [selectedSupplier, setSelectedSupplier] = useState(null); //----
+  // Estado para almacenar el proveedor seleccionado
+  const [selectedSupplier, setSelectedSupplier] = useState(null);
   const menuRef = useRef(null);
 
+  // Efecto para manejar el cierre del menú cuando se hace clic fuera de él
   useEffect(() => {
     const handleClickOutside = (event) => {
       if (menuRef.current && !menuRef.current.contains(event.target)) {
@@ -24,7 +27,7 @@ export const SuppliersComponent = () => {
     };
   }, [selectedSupplier]);
 
-  // Data para el grafico
+  // Extrae los datos de uso del proveedor seleccionado para la gráfica
   const monthInfo = selectedSupplier
     ? selectedSupplier.usageData.map((entry) => entry.month)
     : [];
@@ -34,6 +37,7 @@ export const SuppliersComponent = () => {
 
   return (
     <>
+      {/* Contenedor de proveedores */}
       <div className="suppliers-container">
         {principalSuppliersData.map((item) => (
           <motion.div
@@ -44,6 +48,7 @@ export const SuppliersComponent = () => {
             viewport={{ once: true, amount: 0.2 }}
             transition={{ duration: 2, delay: item.id * 0.25 }}
           >
+            {/* Imagen del proveedor */}
             <div className="suppliers-container-item-image">
               <img
                 src={item.img}
@@ -54,11 +59,13 @@ export const SuppliersComponent = () => {
           </motion.div>
         ))}
       </div>
+
+      {/* Menú emergente con detalles del proveedor seleccionado */}
       <AnimatePresence>
         {selectedSupplier && (
           <motion.div
             className="menu-container"
-            key={selectedSupplier.id} // Usamos el id como key para reiniciar la animación -----
+            key={selectedSupplier.id} // Clave para reiniciar la animación
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
@@ -95,6 +102,7 @@ export const SuppliersComponent = () => {
                   <p className="secondary-text">
                     {selectedSupplier.serviceType}
                   </p>
+                  {/* Área para el gráfico de uso de servicios */}
                   <div className="area-graph">
                     <Line
                       data={{
@@ -102,7 +110,7 @@ export const SuppliersComponent = () => {
                         datasets: [
                           {
                             label: "Contrataciones",
-                            data: usageInfo, // Datos de ejemplo
+                            data: usageInfo, // Datos del proveedor seleccionado
                             borderColor: "rgb(53, 162, 235)",
                             backgroundColor: "rgba(53, 162, 235, 0.5)",
                             fill: true,
