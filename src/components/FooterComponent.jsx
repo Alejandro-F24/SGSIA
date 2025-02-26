@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 export const FooterComponent = () => {
   return (
     <>
@@ -9,19 +11,19 @@ export const FooterComponent = () => {
           <p>SGSIA</p>
         </div>
         <div className="footer-media">
-          <a href="#">
+          <a href="https://www.facebook.com/" target="_blank">
             <img
               src="/icons/facebook.png"
               alt="Icono facebook, envia al facebook de la empresa"
             />
           </a>
-          <a href="#">
+          <a href="https://www.instagram.com/" target="_blank">
             <img
               src="/icons/instagram.png"
               alt="Icono instagram, envia al ig de la empresa"
             />
           </a>
-          <a href="#">
+          <a href="https://co.linkedin.com/" target="_blank">
             <img src="/icons/linkedin.png" alt="" />
           </a>
         </div>
@@ -29,29 +31,31 @@ export const FooterComponent = () => {
       <div className="footer-pages">
         <div className="footer-management-pages">
           <p className="footer-pages-title">Gestión</p>
-          <a href="#">
+          <Link to="/customers">
             <p>Clientes</p>
-          </a>
-          <a href="#">
+          </Link>
+          <Link to="/suppliers">
             <p>Proveedores</p>
-          </a>
-          <a href="#">
+          </Link>
+          <Link to="/underConstruction">
             <p>Seguimiento</p>
-          </a>
+          </Link>
         </div>
         <div className="footer-other-pages">
           <p className="footer-pages-title">Variado</p>
-          <a href="#">
+          <Link to="/underConstruction">
             <p>Notificaciones</p>
-          </a>
-          <a href="#">
+          </Link>
+          <Link to="/underConstruction">
             <p>Inventario</p>
-          </a>
-          <a href="#">
+          </Link>
+          <Link to="/underConstruction">
             <p>Configuración</p>
-          </a>
+          </Link>
         </div>
       </div>
     </>
   );
 };
+
+export default FooterComponent;

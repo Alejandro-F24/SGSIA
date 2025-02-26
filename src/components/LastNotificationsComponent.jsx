@@ -38,3 +38,5 @@ export const LastNotificationsComponent = () => {
     </div>
   );
 };
+
+export default LastNotificationsComponent;

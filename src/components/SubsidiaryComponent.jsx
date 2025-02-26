@@ -115,3 +115,5 @@ export const SubsidiaryComponent = () => {
     </>
   );
 };
+
+export default SubsidiaryComponent;

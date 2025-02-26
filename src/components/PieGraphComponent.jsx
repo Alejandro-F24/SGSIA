@@ -69,3 +69,5 @@ export const PieGraphComponent = () => {
     </div>
   );
 };
+
+export default PieGraphComponent;

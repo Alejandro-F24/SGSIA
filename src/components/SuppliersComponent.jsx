@@ -132,3 +132,5 @@ export const SuppliersComponent = () => {
     </>
   );
 };
+
+export default SuppliersComponent;

@@ -67,23 +67,12 @@ h1 {
 .suppliers-crud {
     width: 25%;
     height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    box-sizing: border-box;
-    align-items: center;
 }
 
 .suppleirs-crud-container {
     width: 80%;
     height: 80%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 50px;
-    border-radius: 10px;
-    background: var(--secondary-BackgroundColor);
+
 }
 
 .suppliers-crud h2 {
@@ -91,92 +80,124 @@ h1 {
     color: var(--nav-font-color);
 }
 
-.action-button {
-    border-style: none;
-    border-radius: 10px;
-    width: 145px;
-    font-size: 12px;
-    height: 40px;
-    background: var(--primary-BackgroundColor);
-    cursor: pointer;
-    color: var(--font-principal-color);
-    transition: 0.3s all;
+
+/* == TABLA DE PROVEEDORES == */
+
+
+
+.suppliers-top-body {
+    width: 100%;
+    display: flex;
+    align-items: end;
+    justify-content: end;
+
 }
 
-.action-button:hover {
+.suppliers-crud {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    gap: 25px;
+    padding-right: 50px;
+}
+
+.suppliers-button {
+    border: none;
+    width: 90px;
+    height: 30px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background: var(--nav-font-color);
+    color: var(--font-principal-color);
+    box-shadow: 0 0 12px 0 rgba(0, 0, 0, 0.5);
+    font-size: 12px;
+    font-weight: bold;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.suppliers-button:hover {
     transform: scale(1.1);
 }
 
-.suppliers-table {
-    width: 75%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-
 .suppliers-table-container {
     width: 100%;
-    height: 100%;
+    height: 65.5vh;
+    /* Ajusta según tu diseño */
     display: flex;
     justify-content: center;
-    align-items: center;
+    overflow-y: auto;
+    /* Permite el scroll vertical cuando los datos exceden el espacio */
 }
 
 .suppliers-table-wrapper {
-    width: 90%;
+    width: 100%;
     display: flex;
     justify-content: center;
-    align-items: center;
     overflow-y: auto;
-    /* Solo scroll vertical */
-    overflow-x: hidden;
-    /* Evita el desbordamiento horizontal */
     border: 1px solid var(--border-color);
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(15, 28, 37, 0.5);
     position: relative;
+    background: var(--nav-font-color);
 }
 
 .suppliers-table-element {
     width: 100%;
     border-collapse: collapse;
-    table-layout: auto;
-    /* Permite que las columnas se ajusten al contenido */
 }
 
-.suppliers-table-element tbody {
-    display: block;
-    max-height: 60vh;
-    overflow-y: auto;
-    /* Desplazamiento dentro del tbody */
-    width: 100%;
-}
+/* = ENCABEZADO TABLA = */
 
 .suppliers-table-element thead {
     position: sticky;
     top: 0;
-    background-color: var(--secondary-BackgroundColor);
+    background: var(--secondary-BackgroundColor);
+    z-index: 2;
+}
+
+.suppliers-table-element th {
+    width: calc(100% / 7);
+    border: 1px solid var(--border-color);
+    background: var(--secondary-BackgroundColor);
     color: var(--nav-font-color);
-    z-index: 10;
-    /* Asegura que la cabecera quede arriba */
 }
 
-.suppliers-table-element tr {
-    display: table;
-    width: 100%;
-    table-layout: fixed;
-}
+/* = ESTILO FILAS DE LA TABLA = */
 
-
-th,
-td {
-    border: 1px solid black;
-    padding: 8px;
+.suppliers-table-element td {
+    padding: 10px;
+    border: 1px solid var(--border-color);
     text-align: center;
 }
 
-th {
-    background-color: var(--secondary-BackgroundColor);
+.suppliers-table-element tbody tr:nth-child(even) {
+    background: var(--primary-BackgroundColor);
+}
+
+/* == ADD SUPPLIER == */
+
+.add-supplier-div {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.add-supplier-form {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.add-supplier-form input {
+    width: 200px;
+}
+
+.add-supplier-form button {
+    margin-top: 20px;
 }

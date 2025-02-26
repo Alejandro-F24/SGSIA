@@ -1,0 +1,504 @@
+{
+  "customers": [
+    {
+      "id": "1",
+      "name": "AgroMarket Los Pinos",
+      "type": "Tienda Agrícola",
+      "nit": "900654321",
+      "number": "3119876543",
+      "registerDate": "2023-08-15",
+      "status": "Activo",
+      "record": [
+        {
+          "idOrder": "P001",
+          "date": "2024-01-10",
+          "total": 12000000
+        }
+      ],
+      "total": ""
+    },
+    {
+      "id": "2",
+      "name": "AgroTienda El Campo",
+      "type": "Tienda Agrícola",
+      "nit": "900123456",
+      "number": "3112254789",
+      "registerDate": "2023-10-10",
+      "status": "Activo",
+      "record": [
+        {
+          "idOrder": "P003",
+          "date": "2024-01-15",
+          "total": 18050000
+        }
+      ],
+      "total": ""
+    },
+    {
+      "id": "3",
+      "name": "Distribuciones La Siembra",
+      "type": "Distribuidor",
+      "nit": "810236547",
+      "number": "3174526987",
+      "registerDate": "2022-05-30",
+      "status": "Activo",
+      "record": [
+        {
+          "idOrder": "P006",
+          "date": "2023-09-22",
+          "total": 22000000
+        }
+      ],
+      "total": ""
+    },
+    {
+      "id": "4",
+      "name": "Agroferretería El Progreso",
+      "type": "Tienda Agrícola",
+      "nit": "811325678",
+      "number": "3179852145",
+      "registerDate": "2021-09-12",
+      "status": "Inactivo",
+      "record": [
+        {
+          "idOrder": "P008",
+          "date": "2023-12-15",
+          "total": 7750000
+        }
+      ],
+      "total": ""
+    },
+    {
+      "id": "5",
+      "name": "Hacienda Santa Teresa",
+      "type": "Finca",
+      "nit": "745123698",
+      "number": "3204789652",
+      "registerDate": "2024-01-10",
+      "status": "Activo",
+      "record": [
+        {
+          "idOrder": "P009",
+          "date": "2024-02-01",
+          "total": 9000000
+        }
+      ],
+      "total": ""
+    },
+    {
+      "id": "6",
+      "name": "Asociación de Pequeños Agricultores",
+      "type": "Cooperativa",
+      "nit": "630025478",
+      "number": "3224587965",
+      "registerDate": "2020-05-22",
+      "status": "Activo",
+      "record": [
+        {
+          "idOrder": "P012",
+          "date": "2023-12-05",
+          "total": 1950000
+        }
+      ],
+      "total": ""
+    },
+    {
+      "id": "7",
+      "name": "Granja Los Nogales",
+      "type": "Finca",
+      "nit": "510236547",
+      "number": "3114789563",
+      "registerDate": "2023-02-28",
+      "status": "Suspendido",
+      "record": [
+        {
+          "idOrder": "P016",
+          "date": "2023-08-19",
+          "total": 1100000
+        }
+      ],
+      "total": ""
+    },
+    {
+      "id": "8",
+      "name": "Semillas y Fertilizantes EcoAgro",
+      "type": "Tienda Agrícola",
+      "nit": "701145236",
+      "number": "3127896541",
+      "registerDate": "2023-05-14",
+      "status": "Activo",
+      "record": [
+        {
+          "idOrder": "P018",
+          "date": "2024-01-12",
+          "total": 12500000
+        }
+      ],
+      "total": ""
+    },
+    {
+      "id": "9",
+      "name": "Finca La Cosecha",
+      "type": "Finca",
+      "nit": "820456123",
+      "number": "3156987452",
+      "registerDate": "2023-04-10",
+      "status": "Activo",
+      "record": [
+        {
+          "idOrder": "P021",
+          "date": "2024-02-10",
+          "total": 900000
+        }
+      ],
+      "total": ""
+    },
+    {
+      "id": "10",
+      "name": "Vivero El Edén",
+      "type": "Finca",
+      "nit": "850369741",
+      "number": "3198745632",
+      "registerDate": "2021-07-22",
+      "status": "Activo",
+      "record": [
+        {
+          "idOrder": "P024",
+          "date": "2023-11-12",
+          "total": 1800000
+        }
+      ],
+      "total": ""
+    },
+    {
+      "id": "11",
+      "name": "Agroinsumos del Norte",
+      "type": "Cooperativa",
+      "nit": "644143643",
+      "number": "3228978421",
+      "registerDate": "2021-11-04",
+      "status": "Suspendido",
+      "record": [
+        {
+          "idOrder": "P71",
+          "date": "2020-03-19",
+          "total": 1348417
+        },
+        {
+          "idOrder": "P57",
+          "date": "2024-07-27",
+          "total": 2912864
+        },
+        {
+          "idOrder": "P68",
+          "date": "2020-09-19",
+          "total": 4632871
+        }
+      ],
+      "total": ""
+    },
+    {
+      "id": "12",
+      "name": "Distribuidora AgroVerde",
+      "type": "Finca",
+      "nit": "899734778",
+      "number": "3082157954",
+      "registerDate": "2024-05-20",
+      "status": "Activo",
+      "record": [
+        {
+          "idOrder": "P73",
+          "date": "2022-09-23",
+          "total": 2155127
+        }
+      ],
+      "total": ""
+    },
+    {
+      "id": "13",
+      "name": "Finca San Isidro",
+      "type": "Cooperativa",
+      "nit": "649689007",
+      "number": "3001316793",
+      "registerDate": "2022-09-19",
+      "status": "Activo",
+      "record": [
+        {
+          "idOrder": "P70",
+          "date": "2020-07-06",
+          "total": 702169
+        },
+        {
+          "idOrder": "P83",
+          "date": "2024-04-29",
+          "total": 4881473
+        }
+      ],
+      "total": ""
+    },
+    {
+      "id": "14",
+      "name": "Cooperativa Agraria El Progreso",
+      "type": "Tienda Agrícola",
+      "nit": "646144301",
+      "number": "3099255033",
+      "registerDate": "2022-06-21",
+      "status": "Suspendido",
+      "record": [
+        {
+          "idOrder": "P56",
+          "date": "2022-08-08",
+          "total": 4131361
+        }
+      ],
+      "total": ""
+    },
+    {
+      "id": "15",
+      "name": "Agromercado La Esperanza",
+      "type": "Distribuidor",
+      "nit": "759247089",
+      "number": "3187742954",
+      "registerDate": "2022-03-27",
+      "status": "Suspendido",
+      "record": [
+        {
+          "idOrder": "P78",
+          "date": "2022-11-15",
+          "total": 1750005
+        }
+      ],
+      "total": ""
+    },
+    {
+      "id": "16",
+      "name": "Vivero Los Robles",
+      "type": "Distribuidor",
+      "nit": "817991557",
+      "number": "3051996119",
+      "registerDate": "2020-12-21",
+      "status": "Suspendido",
+      "record": [
+        {
+          "idOrder": "P80",
+          "date": "2022-02-24",
+          "total": 4435739
+        },
+        {
+          "idOrder": "P57",
+          "date": "2023-11-16",
+          "total": 2901330
+        },
+        {
+          "idOrder": "P98",
+          "date": "2024-06-12",
+          "total": 3423145
+        }
+      ],
+      "total": ""
+    },
+    {
+      "id": "17",
+      "name": "Hacienda El Encanto",
+      "type": "Cooperativa",
+      "nit": "690299524",
+      "number": "3115913248",
+      "registerDate": "2021-08-10",
+      "status": "Inactivo",
+      "record": [
+        {
+          "idOrder": "P62",
+          "date": "2023-12-27",
+          "total": 2373082
+        },
+        {
+          "idOrder": "P64",
+          "date": "2023-01-12",
+          "total": 698463
+        }
+      ],
+      "total": ""
+    },
+    {
+      "id": "18",
+      "name": "Tienda Agrícola El Trébol",
+      "type": "Finca",
+      "nit": "954523940",
+      "number": "3196444873",
+      "registerDate": "2022-10-07",
+      "status": "Suspendido",
+      "record": [
+        {
+          "idOrder": "P50",
+          "date": "2021-01-18",
+          "total": 1521054
+        }
+      ],
+      "total": ""
+    },
+    {
+      "id": "19",
+      "name": "Cooperativa Agropecuaria Unidos",
+      "type": "Cooperativa",
+      "nit": "830400913",
+      "number": "3204862444",
+      "registerDate": "2022-11-30",
+      "status": "Suspendido",
+      "record": [
+        {
+          "idOrder": "P99",
+          "date": "2024-12-07",
+          "total": 2509244
+        },
+        {
+          "idOrder": "P92",
+          "date": "2022-10-10",
+          "total": 1847750
+        },
+        {
+          "idOrder": "P92",
+          "date": "2023-06-14",
+          "total": 3502542
+        }
+      ],
+      "total": ""
+    },
+    {
+      "id": "20",
+      "name": "Agroferretería San Juan",
+      "type": "Finca",
+      "nit": "888081509",
+      "number": "3168764957",
+      "registerDate": "2023-11-19",
+      "status": "Suspendido",
+      "record": [
+        {
+          "idOrder": "P51",
+          "date": "2021-10-30",
+          "total": 1358563
+        },
+        {
+          "idOrder": "P64",
+          "date": "2020-06-30",
+          "total": 2900991
+        },
+        {
+          "idOrder": "P99",
+          "date": "2022-01-12",
+          "total": 1626662
+        }
+      ],
+      "total": ""
+    },
+    {
+      "id": "21",
+      "name": "Granja Los Laureles",
+      "type": "Finca",
+      "nit": "616453672",
+      "number": "3025838560",
+      "registerDate": "2023-03-20",
+      "status": "Suspendido",
+      "record": [
+        {
+          "idOrder": "P56",
+          "date": "2023-02-26",
+          "total": 2850577
+        },
+        {
+          "idOrder": "P91",
+          "date": "2024-06-09",
+          "total": 1888682
+        },
+        {
+          "idOrder": "P83",
+          "date": "2021-08-02",
+          "total": 3276051
+        }
+      ],
+      "total": ""
+    },
+    {
+      "id": "22",
+      "name": "Finca Buenavista",
+      "type": "Tienda Agrícola",
+      "nit": "907582248",
+      "number": "3146828277",
+      "registerDate": "2020-07-08",
+      "status": "Suspendido",
+      "record": [
+        {
+          "idOrder": "P92",
+          "date": "2024-10-22",
+          "total": 1743785
+        },
+        {
+          "idOrder": "P61",
+          "date": "2021-04-10",
+          "total": 2694841
+        }
+      ],
+      "total": ""
+    },
+    {
+      "id": "23",
+      "name": "Distribuciones CampoFértil",
+      "type": "Distribuidor",
+      "nit": "688960486",
+      "number": "3018136974",
+      "registerDate": "2021-10-29",
+      "status": "Suspendido",
+      "record": [
+        {
+          "idOrder": "P52",
+          "date": "2024-03-04",
+          "total": 2251205
+        }
+      ],
+      "total": ""
+    },
+    {
+      "id": "24",
+      "name": "Asociación de Productores Orgánicos",
+      "type": "Cooperativa",
+      "nit": "929818282",
+      "number": "3028368878",
+      "registerDate": "2024-10-09",
+      "status": "Suspendido",
+      "record": [
+        {
+          "idOrder": "P89",
+          "date": "2020-05-31",
+          "total": 2631272
+        },
+        {
+          "idOrder": "P96",
+          "date": "2024-01-17",
+          "total": 2995983
+        }
+      ],
+      "total": ""
+    },
+    {
+      "id": "25",
+      "name": "Agroindustrial La Victoria",
+      "type": "Distribuidor",
+      "nit": "778712228",
+      "number": "3079215913",
+      "registerDate": "2023-10-20",
+      "status": "Activo",
+      "record": [
+        {
+          "idOrder": "P51",
+          "date": "2020-10-24",
+          "total": 4460844
+        },
+        {
+          "idOrder": "P93",
+          "date": "2023-02-21",
+          "total": 1551018
+        }
+      ],
+      "total": ""
+    }
+  ]
+}

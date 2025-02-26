@@ -69,3 +69,5 @@ export const GeneralMonitoringComponent = () => {
     </div>
   );
 };
+
+export default GeneralMonitoringComponent;

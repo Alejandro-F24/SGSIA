@@ -1,6 +1,7 @@
 [
   {
     "id": 1,
+    "type": "customersComplaints",
     "image": "/media/chat.png",
     "backgroundColor": "#337AB7",
     "quantity": 870,
@@ -8,6 +9,7 @@
   },
   {
     "id": 2,
+    "type": "actualShipments",
     "image": "/media/envio.png",
     "backgroundColor": "#F0AD4E",
     "quantity": 3570,
@@ -15,6 +17,7 @@
   },
   {
     "id": 3,
+    "type": "newCustomers",
     "image": "/media/nuevoUsuario.png",
     "backgroundColor": "#5CB85C",
     "quantity": 2478,

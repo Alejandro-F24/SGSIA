@@ -1,0 +1,204 @@
+/* Estilos Globales de la pagina */
+
+:root {
+    --primary-BackgroundColor: #f8f9fa;
+    --secondary-BackgroundColor: #0f1c25;
+    --nav-font-color: #ffffff;
+    --font-principal-color: #000000;
+    --font-secondary-color: #ced4da;
+    --border-color: #c4c4c4;
+    --green-color: #5cb85c;
+    --yellow-color: #f0ad4e;
+    --red-color: #d9534f;
+}
+
+
+/* === MODAL COMPONENT CSS === */
+
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(4px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 3;
+}
+
+.modal-content {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    height: 400px;
+    text-align: center;
+}
+
+.modal-close {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    background: red;
+    color: white;
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+.modal-close:hover {
+    transform: scale(1.2);
+}
+
+/* === CUSTOMERS PAGE ===*/
+
+.customers-top-body {
+    width: 100%;
+    height: 15vh;
+    display: flex;
+}
+
+.customers-info {
+    width: 50%;
+    height: 100%;
+}
+
+.customers-crud {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    gap: 25px;
+    padding-right: 50px;
+    overflow: hidden;
+}
+
+.customers-button {
+    border: none;
+    width: 90px;
+    height: 30px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background: var(--nav-font-color);
+    color: var(--font-principal-color);
+    box-shadow: 0 0 12px 0 rgba(0, 0, 0, 0.5);
+    font-size: 12px;
+    font-weight: bold;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.customers-button:hover {
+    transform: scale(1.1);
+}
+
+.customers-table {
+    width: 100%;
+    height: 75vh;
+}
+
+/* == TABLE STYLES == */
+
+.table-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    overflow-y: auto;
+    /* Permite el scroll vertical */
+    /* Scroll cuando los datos exceden el espacio basico de la tabla */
+}
+
+.clients-table {
+    width: 100%;
+    border-collapse: collapse;
+    background: var(--nav-font-color);
+}
+
+/* = ENCABEZADO TABLA = */
+
+.clients-table thead {
+    position: sticky;
+    top: 0;
+    background: var(--secondary-BackgroundColor);
+    z-index: 2;
+}
+
+.clients-table th {
+    width: calc(100% / 8);
+    border: 1px solid var(--border-color);
+    background: var(--secondary-BackgroundColor);
+    color: var(--nav-font-color);
+}
+
+/* = ESTILO FILAS DE LA TABLA = */
+
+.clients-table td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid var(--border-color);
+}
+
+.clients-table tbody tr:nth-child(even) {
+    background: var(--primary-BackgroundColor);
+}
+
+/* Estados con colores */
+.clients-table .activo {
+    background: var(--green-color);
+    font-weight: bold;
+}
+
+.clients-table .inactivo {
+    background: var(--yellow-color);
+    font-weight: bold;
+}
+
+.clients-table .suspendido {
+    background: var(--red-color);
+    font-weight: bold;
+}
+
+/* == ADD CUSTOMERS == */
+
+.add-customer-div {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.add-customers-form {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.add-customers-form input,
+.modal-container-delete input {
+    width: 200px;
+}
+
+.add-customers-form button {
+    margin-top: 20px;
+}
+
+/* == DELETE CUSTOMERS == */
+
+.modal-container-delete {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}

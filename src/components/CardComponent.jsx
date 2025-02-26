@@ -39,3 +39,5 @@ export const CardComponent = ({ image, backgroundColor, quantity, text }) => {
     </div>
   );
 };
+
+export default CardComponent;

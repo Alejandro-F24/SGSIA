@@ -28,3 +28,5 @@ export const CardsComponents = () => {
     </div>
   );
 };
+
+export default CardsComponents;

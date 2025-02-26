@@ -21,16 +21,16 @@ export const HeaderComponent = () => {
         </div>
         <div className="nav-links">
           <li>
-            <a href="#">Clientes</a>
+            <Link to="/customers">Clientes</Link>
           </li>
           <li>
             <Link to="/suppliers">Proveedores</Link>
           </li>
           <li>
-            <a href="#">Seguimiento</a>
+            <Link to="/underConstruction">Seguimiento</Link>
           </li>
           <li>
-            <a href="#">Inventario</a>
+            <Link to="/underConstruction">Inventario</Link>
           </li>
           <li>
             <a href="#">
